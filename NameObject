@@ -1,0 +1,13 @@
+local NameObject = {} -- Module
+
+function NameObject.Part() -- this function allows us to change the block name
+	local Part = workspace.BasicPart 
+	Part.Name = "Name" -- what would you call a Block?
+end
+
+function NameObject.Script() -- this function allows us to change the Script name
+	local Part = workspace.BasicScript 
+	Part.Name = "Name" -- what would you call a Script?
+end
+
+return NameObject
