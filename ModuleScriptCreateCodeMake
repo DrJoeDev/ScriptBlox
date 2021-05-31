@@ -1,0 +1,22 @@
+local Make = {}-- this is module 
+
+function Make.Part() -- This function with this function you can spawn a block.
+	local Part = Instance.new("Part") -- Instance - This command allows us to spawn something, but don't forget to write the Code - Part.Parent = workspace 
+	Part.Name = "BasicPart" -- DON'T TOUCH THAT
+	Part.Parent = workspace -- Good
+end -- this is end the fuction
+
+function Make.Script() -- This function with this function you can spawn a Script.
+	local Script = Instance.new("Script") -- Instance - This command allows us to spawn something, but don't forget to write the Code - Script.Parent = workspace 
+    Script.Name = "BasicScript" -- DON'T TOUCH THAT
+	Script.Parent = workspace -- Good
+end -- this is end the fuction
+
+
+function Make.ModuleScript() -- This function with this function you can spawn a ModuleScript.
+	local Script = Instance.new("ModuleScript") -- Instance - This command allows us to spawn something, but don't forget to write the Code - ModuleScript.Parent = workspace 
+	Script.Name = "BasicModuleScript" -- DON'T TOUCH THAT
+	Script.Parent = workspace -- Good
+end -- this is end the fuction
+
+return Make -- ModuleScript so working
