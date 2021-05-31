@@ -1,0 +1,24 @@
+local Make = require(game.ReplicatedStorage.CreateCommandMake) -- require - This command allows us to connect with Scripts. 
+local NameObject = require(game.ReplicatedStorage.CreateNameObject) -- -- require - This command allows us to connect with Scripts.
+local ColorPart = require(game.ReplicatedStorage.ColorScript)
+
+Make.Part() -- Oh, here's our Code.
+Make.Script()-- Make.Script()
+Make.ModuleScript()-- Make.ModuleScript()
+NameObject.Part() -- New Name for Part!!!
+NameObject.Script() -- New Name for Script!!!
+
+while true do -- Color Loop!!
+	ColorPart.Black() -- Black color
+	wait(1)
+	ColorPart.Blue() -- Blue color
+	wait(1)
+	ColorPart.Green() -- Green color
+	wait(1)
+	ColorPart.Red() -- Red color
+	wait(1)
+	ColorPart.Yellow() -- Yellow color
+	wait(1)
+end -- end loop
+
+-- time to test click button F5
