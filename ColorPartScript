@@ -1,0 +1,24 @@
+local ColorPart = {}
+
+function ColorPart.Red()
+	local Part = workspace.NamePart
+	Part.BrickColor = BrickColor.Red()
+end
+function ColorPart.Green()
+	local Part = workspace.NamePart
+	Part.BrickColor = BrickColor.Green()
+end
+function ColorPart.Blue()
+	local Part = workspace.NamePart
+	Part.BrickColor = BrickColor.Blue()
+end
+function ColorPart.Black()
+	local Part = workspace.NamePart
+	Part.BrickColor = BrickColor.Black()
+end
+function ColorPart.Yellow()
+	local Part = workspace.NamePart
+	Part.BrickColor = BrickColor.new("New Yeller")
+end
+
+return ColorPart
