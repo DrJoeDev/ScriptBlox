@@ -1,0 +1,8 @@
+local Parent = {} 
+
+function Parent.Part() 
+	local Part = workspace.NamePart
+	Part.Parent = workspace.BasicFolder
+end
+
+return Parent
